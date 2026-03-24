@@ -57,3 +57,14 @@ Adding new features
 def extract_your_feature(email_text):
     Add your feature extraction logic
     return feature_value
+    🚨 Detect phishing emails before they fool you! This project uses machine learning (Random Forest classifier) to analyze email content and identify phishing attempts. Perfect for beginners learning ML, cybersecurity, or Python development.
+
+🔍 Features:
+• Analyzes email text for suspicious keywords and patterns
+• Detects malicious URLs and IP-based links
+• Identifies urgent language and personal info requests
+• Provides confidence scores for predictions
+• Interactive CLI for testing emails
+
+📚 Educational Value:
+Learn how ML can be applied to real-world security problems, understand phishing detection techniques, and build a complete Python project from scratch.
