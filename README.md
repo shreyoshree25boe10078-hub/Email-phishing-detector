@@ -68,3 +68,22 @@ def extract_your_feature(email_text):
 
 📚 Educational Value:
 Learn how ML can be applied to real-world security problems, understand phishing detection techniques, and build a complete Python project from scratch.
+
+How to run:
+
+def check_phishing(email):
+    suspicious_words = ["urgent", "click now", "verify", "password", "limited time"]
+
+    score = 0
+
+    for word in suspicious_words:
+        if word in email.lower():
+            score += 1
+
+    if score >= 2:
+        return "⚠️ Phishing Email"
+    else:
+        return "✅ Safe Email"
+
+email = input("Enter email content: ")
+print(check_phishing(email))
